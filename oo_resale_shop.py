@@ -11,11 +11,19 @@ class ResaleShop:
 
     # How will you set up your constructor?
     # Remember: in python, all constructors have the same name (__init__)
-    def __init__():
-        pass # You'll remove this when you fill out your constructor
+    def __init__(self, inventory : Dict[int, Dict[str, Union[str, int, bool]]] = {}):
+        self.inventory= inventory
+
 
     # What methods will you need?
     def buy(self): Computer
+
+    def buy(self, computer: Dict[str, Union[str, int, bool]]):
+
+        global itemID
+        itemID += 1 # increment itemID
+        inventory[itemID] = computer
+        return itemID
         
     # 1. call computer(...) constructor 
     #    to create a new computer instance
