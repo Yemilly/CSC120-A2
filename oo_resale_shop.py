@@ -16,8 +16,7 @@ class ResaleShop:
 
 
     # What methods will you need?
-    def buy(self): Computer
-
+    
     def buy(self, computer: Dict[str, Union[str, int, bool]]):
 
         global itemID
