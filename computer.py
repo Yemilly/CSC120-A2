@@ -9,6 +9,11 @@ operating_system: str
 year_made: int
 price: int
 
+
+# storing information about a specific computer
+# updating a computer's OS
+# refurbishing a computer
+
     # How will you set up your constructor?
     # Remember: in python, all constructors have the same name (__init__)
 def __init__(self,description, processor_type, hard_drive_capacity, 

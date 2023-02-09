@@ -4,6 +4,10 @@ class ResaleShop:
 
     # What attributes will it need?
     inventory=[]
+# storing the inventory for the store
+# buying a computer (add to inventory)
+# selling a computer (remove from inventory)
+# updating a computer's price
 
     # How will you set up your constructor?
     # Remember: in python, all constructors have the same name (__init__)
