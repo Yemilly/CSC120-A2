@@ -9,7 +9,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (3 pts)
 
-____ 1 pt: All expected attributes for `Computer` class are present
+yes 1 pt: All expected attributes for `Computer` class are present
 
 ____ 1 pt: All expected methods for `Computer` class are present
 
