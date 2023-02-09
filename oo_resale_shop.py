@@ -4,6 +4,7 @@ class ResaleShop:
 
     # What attributes will it need?
     inventory=[]
+    
 # storing the inventory for the store
 # buying a computer (add to inventory)
 # selling a computer (remove from inventory)
@@ -16,7 +17,7 @@ class ResaleShop:
 
 
     # What methods will you need?
-    
+
     def buy(self, computer: Dict[str, Union[str, int, bool]]):
 
         global itemID
